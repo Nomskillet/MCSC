@@ -75,9 +75,11 @@ h1 {
 
 .stacked-image {
     display: block;
+    max-width: 100%;
+    height: auto;
     margin-bottom: 20px;
-    width: 800px; /* Adjust this value to make the image smaller */
 }
+
 
 /* Desktop styles */
 
