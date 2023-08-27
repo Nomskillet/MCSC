@@ -79,3 +79,27 @@ h1 {
     width: 800px; /* Adjust this value to make the image smaller */
 }
 
+/* Desktop styles */
+
+.content {
+    text-align: center;
+    padding: 50px;
+}
+
+form {
+    max-width: 600px; /* Adjust as needed for your design */
+    margin: 0 auto;
+}
+
+/* Mobile styles using media queries */
+
+@media screen and (max-width: 600px) {
+    .content {
+        padding: 20px;
+    }
+
+    form {
+        max-width: 100%;
+        padding: 20px;
+    }
+}
